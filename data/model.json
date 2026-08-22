@@ -1,0 +1,38 @@
+{
+  "metrics": {
+    "test_size": 5000,
+    "precision": 0.6115942028985507,
+    "recall": 0.367169373549884,
+    "roc_auc": 0.7126711101479082,
+    "positive_rate": 0.34475
+  },
+  "intercept": -0.729348066579413,
+  "coefficients": [
+    -0.06298218551113968,
+    0.15279576324385105,
+    -0.18240748951783323,
+    -0.011627996818528065,
+    0.8100693266032067,
+    0.4996447443722985,
+    -0.6202400293771002,
+    -0.5236819332502626,
+    0.27013000337120446,
+    -0.014460727043164461,
+    0.33135884735492915,
+    0.1430049512158505
+  ],
+  "feature_names": [
+    "log_amount",
+    "previous_success",
+    "previous_failures",
+    "hours_since_failure",
+    "reason_timeout",
+    "reason_bank_unavailable",
+    "reason_insufficient_funds",
+    "reason_expired_card",
+    "method_upi",
+    "method_card",
+    "abandoned_checkout",
+    "subscription"
+  ]
+}

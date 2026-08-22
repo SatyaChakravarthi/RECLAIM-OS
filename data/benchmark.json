@@ -1,0 +1,10 @@
+{
+  "held_out_transactions": 5000,
+  "agent_flagged": 1035,
+  "agent_recovered": 633,
+  "baseline_expected_recovered": 357,
+  "incremental_recovered": 276,
+  "precision": 0.6115942028985507,
+  "recall": 0.367169373549884,
+  "roc_auc": 0.7126711101479082
+}
